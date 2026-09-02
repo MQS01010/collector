@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import { annonceService } from '../services/api'
-
+//test
 export const useAnnoncesStore = defineStore('annonces', () => {
   const annonces = ref([])
   const mesAnnonces = ref([])
